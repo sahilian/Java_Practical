@@ -2,46 +2,57 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Q1 extends JFrame implements ActionListener {
+
+public class StringManipulator extends JFrame implements ActionListener {
     private JTextField inputField;
     private JLabel inputLabel;
     private JButton palindromeButton, reverseButton, vowelsButton;
 
-    public Q1() {
+
+    public StringManipulator() {
         setTitle("String Operations");
         setLayout(new FlowLayout());
+
 
         inputLabel = new JLabel("Input any String: ");
         add(inputLabel);
 
+
         inputField = new JTextField(20);
         add(inputField);
+
 
         palindromeButton = new JButton("Check Palindrome");
         palindromeButton.addActionListener(this);
         add(palindromeButton);
 
+
         reverseButton = new JButton("Reverse");
         reverseButton.addActionListener(this);
         add(reverseButton);
 
+
         vowelsButton = new JButton("Find Vowels");
         vowelsButton.addActionListener(this);
         add(vowelsButton);
+
 
         setSize(300, 150);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
+
     public boolean isPalindrome(String str) {
         String reversedStr = new StringBuilder(str).reverse().toString();
         return str.equalsIgnoreCase(reversedStr);
     }
 
+
     public String reverse(String str) {
         return new StringBuilder(str).reverse().toString();
     }
+
 
     public String findVowels(String str) {
         String vowels = "";
@@ -52,6 +63,7 @@ public class Q1 extends JFrame implements ActionListener {
         }
         return vowels;
     }
+
 
     public void actionPerformed(ActionEvent e) {
         String input = inputField.getText();
@@ -68,7 +80,8 @@ public class Q1 extends JFrame implements ActionListener {
         }
     }
 
+
     public static void main(String[] args) {
-        new Q1();
+        new StringManipulator();
     }
 }

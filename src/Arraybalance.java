@@ -1,4 +1,4 @@
-public class Q2 {
+public class Arraybalance {
     public static int isBalanced(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if ((i % 2 == 0 && arr[i] % 2 != 0) || (i % 2 == 1 && arr[i] % 2 == 0)) {

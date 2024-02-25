@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1620773-3f44-45b1-991e-88295264478f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Practical.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q2.java" afterDir="false" />
+    <list default="true" id="f1620773-3f44-45b1-991e-88295264478f" name="Changes" comment="Java Practicals">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPossibilitiesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MovieInputGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Practical.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringManipulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arraybalance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +33,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2cdRLDLNWXqw4z6fdebguNT2yiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,40 +45,75 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AdvancedJavaLabQuestion1.executor": "Run",
+    "Application.ArrayPossibilitiesChecker.executor": "Run",
+    "Application.Arraybalance.executor": "Run",
+    "Application.MovieInputGUI.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q2.executor": "Run",
+    "Application.Q3.executor": "Run",
     "Application.StringManipulator.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/termi/Downloads/Compressed/MySqlJdbcDriver",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/termi/IdeaProjects/Java Practical/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "MySQL"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q2">
-    <configuration name="AdvancedJavaLabQuestion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdvancedJavaLabQuestion1" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\termi\IdeaProjects\Java Practical\out\production" />
+      <recent name="C:\Users\termi\IdeaProjects\Java Practical\out" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Arraybalance">
+    <configuration name="ArrayPossibilitiesChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPossibilitiesChecker" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q1" />
+    <configuration name="Arraybalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arraybalance" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2" />
+    <configuration name="MovieInputGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieInputGUI" />
+      <module name="Java Practical" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,12 +128,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q2" />
-        <item itemvalue="Application.Q1" />
+        <item itemvalue="Application.Arraybalance" />
+        <item itemvalue="Application.ArrayPossibilitiesChecker" />
+        <item itemvalue="Application.MovieInputGUI" />
         <item itemvalue="Application.StringManipulator" />
-        <item itemvalue="Application.AdvancedJavaLabQuestion1" />
+        <item itemvalue="Application.Q3" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,11 +151,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708439416907</updated>
-      <workItem from="1708439418085" duration="3521000" />
+      <workItem from="1708439418085" duration="4173000" />
+      <workItem from="1708839087399" duration="4524000" />
+      <workItem from="1708843707915" duration="185000" />
+      <workItem from="1708845183431" duration="178000" />
+      <workItem from="1708847546472" duration="11000" />
+      <workItem from="1708868893174" duration="1465000" />
     </task>
+    <task id="LOCAL-00001" summary="Java Practicals">
+      <option name="closed" value="true" />
+      <created>1708450119591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708450119591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Practicals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Practicals" />
   </component>
 </project>
