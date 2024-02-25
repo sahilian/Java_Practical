@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1620773-3f44-45b1-991e-88295264478f" name="Changes" comment="Java Practicals">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPossibilitiesChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MovieInputGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LayoutManagerExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMI/CalculatorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMI/CalculatorServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMI/RemoteCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RMI/RemoteCalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeparateVowelsConsonants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleInterestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TryCatchFinallyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Practical.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringManipulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arraybalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteArrayToOutputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteArrayToOutputStreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,11 +58,26 @@
     "Application.AdvancedJavaLabQuestion1.executor": "Run",
     "Application.ArrayPossibilitiesChecker.executor": "Run",
     "Application.Arraybalance.executor": "Run",
+    "Application.BorderLayoutExample.executor": "Run",
+    "Application.ByteArrayToOutputStreamExample.executor": "Run",
+    "Application.CalculatorClient.executor": "Run",
+    "Application.CalculatorServer.executor": "Run",
+    "Application.FileCopy.executor": "Run",
+    "Application.JDBCDemo.executor": "Run",
+    "Application.LayoutManagerExamples.executor": "Run",
     "Application.MovieInputGUI.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q2.executor": "Run",
     "Application.Q3.executor": "Run",
+    "Application.ReadFile.executor": "Run",
+    "Application.RunLayoutExamples.executor": "Run",
+    "Application.SeparateVowelsConsonants.executor": "Run",
+    "Application.SimpleInterestCalculator.executor": "Run",
     "Application.StringManipulator.executor": "Run",
+    "Application.StudentExtractor.executor": "Run",
+    "Application.TCPClient.executor": "Run",
+    "Application.TCPServer.executor": "Run",
+    "Application.TryCatchFinallyExample.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -90,37 +116,43 @@
       <recent name="C:\Users\termi\IdeaProjects\Java Practical\out" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Arraybalance">
-    <configuration name="ArrayPossibilitiesChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPossibilitiesChecker" />
+  <component name="RunManager" selected="Application.LayoutManagerExamples">
+    <configuration name="CalculatorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RMI.CalculatorClient" />
+      <module name="Java Practical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutExample" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arraybalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arraybalance" />
+    <configuration name="LayoutManagerExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LayoutManagerExamples" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieInputGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MovieInputGUI" />
+    <configuration name="RunLayoutExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunLayoutExamples" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q3" />
-      <module name="Java Practical" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringManipulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringManipulator" />
+    <configuration name="TryCatchFinallyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryCatchFinallyExample" />
       <module name="Java Practical" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Arraybalance" />
-        <item itemvalue="Application.ArrayPossibilitiesChecker" />
-        <item itemvalue="Application.MovieInputGUI" />
-        <item itemvalue="Application.StringManipulator" />
-        <item itemvalue="Application.Q3" />
+        <item itemvalue="Application.LayoutManagerExamples" />
+        <item itemvalue="Application.RunLayoutExamples" />
+        <item itemvalue="Application.BorderLayoutExample" />
+        <item itemvalue="Application.TryCatchFinallyExample" />
+        <item itemvalue="Application.CalculatorClient" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +188,7 @@
       <workItem from="1708843707915" duration="185000" />
       <workItem from="1708845183431" duration="178000" />
       <workItem from="1708847546472" duration="11000" />
-      <workItem from="1708868893174" duration="1465000" />
+      <workItem from="1708868893174" duration="8299000" />
     </task>
     <task id="LOCAL-00001" summary="Java Practicals">
       <option name="closed" value="true" />
@@ -166,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708450119591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java Practicals">
+      <option name="closed" value="true" />
+      <created>1708870617397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708870617397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
